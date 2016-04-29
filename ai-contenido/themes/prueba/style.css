@@ -1,0 +1,20 @@
+/*
+Theme Name: Prueba
+Theme URI: https://voz.pisfato.com
+Author: Sailor
+*/
+.curso {
+	position: relative;
+}
+.curso-precio {
+	padding: 7px 12px;
+	position: absolute;
+	background-color: #8888bc;
+	top: 0;
+	left: 0;
+}
+
+.cabecera-subrayada {
+	padding-bottom: 5px;
+	border-bottom: solid 1px #dedede;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nuevo Curso</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Audiowide" rel='stylesheet' type="text/css"> -->
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/grids.css">
+		<link rel="stylesheet" href="css/buttons.css">
+		<link rel="stylesheet" href="css/grids-responsive.css">
+		<link rel="stylesheet" href="css/forms.css">
+		<link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen, projection">
+		<link rel="stylesheet" type="text/css" href="js/quill/quill.snow.css">
+		<link rel="stylesheet" type="text/css" href="js/quill/advanced.css">
+		<script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<section>
+			<form action="publicacion.php" method="post" class="pure-form">
+				<input type="hidden" value="1" name="id_usuario" />
+				<div class="pure-g">
+					<div class="pure-u-lg-15-24 pure-u-md-12-24 pure-u-sm-1 caja">
+						<div class="pure-g">
+							<div class="pure-u-1">
+								<h2>Agregar nuevo curso</h2>
+								<input name="curso_nombre" placeholder="Nombre del curso" type="text" autocomplete="off" spellcheck="true" class="pure-input-1" required />
+								<div class="advanced-wrapper">
+									<div class="toolbar-container">
+										<span class="ql-format-group">
+											<select title="Font" class="ql-font">
+												<option value="sans-serif" selected>Sans Serif</option>
+												<option value="Georgia, serif">Serif</option>
+												<option value="Monaco, 'Courier New', monospace">Monospace</option>
+											</select>
+											<select title="Size" class="ql-size">
+												<option value="10px">Pequeño</option>
+												<option value="13px" selected>Normal</option>
+												<option value="18px">Grande</option>
+												<option value="32px">Extragrande</option>
+											</select>
+										</span>
+										<span class="ql-format-group"><span title="Bold" class="ql-format-button ql-bold"></span><span class="ql-format-separator"></span><span title="Italic" class="ql-format-button ql-italic"></span><span class="ql-format-separator"></span><span title="Underline" class="ql-format-button ql-underline"></span></span>
+										<span class="ql-format-group">
+											<select title="Text Color" class="ql-color">
+												<option value="rgb(0, 0, 0)" selected></option>
+												<option value="rgb(230, 0, 0)"></option>
+												<option value="rgb(255, 153, 0)"></option>
+												<option value="rgb(255, 255, 0)"></option>
+												<option value="rgb(0, 138, 0)"></option>
+												<option value="rgb(0, 102, 204)"></option>
+												<option value="rgb(153, 51, 255)"></option>
+												<option value="rgb(255, 255, 255)"></option>
+												<option value="rgb(250, 204, 204)"></option>
+												<option value="rgb(255, 235, 204)"></option>
+												<option value="rgb(255, 255, 204)"></option>
+												<option value="rgb(204, 232, 204)"></option>
+												<option value="rgb(204, 224, 245)"></option>
+												<option value="rgb(235, 214, 255)"></option>
+												<option value="rgb(187, 187, 187)"></option>
+												<option value="rgb(240, 102, 102)"></option>
+												<option value="rgb(255, 194, 102)"></option>
+												<option value="rgb(255, 255, 102)"></option>
+												<option value="rgb(102, 185, 102)"></option>
+												<option value="rgb(102, 163, 224)"></option>
+												<option value="rgb(194, 133, 255)"></option>
+												<option value="rgb(136, 136, 136)"></option>
+												<option value="rgb(161, 0, 0)"></option>
+												<option value="rgb(178, 107, 0)"></option>
+												<option value="rgb(178, 178, 0)"></option>
+												<option value="rgb(0, 97, 0)"></option>
+												<option value="rgb(0, 71, 178)"></option>
+												<option value="rgb(107, 36, 178)"></option>
+												<option value="rgb(68, 68, 68)"></option>
+												<option value="rgb(92, 0, 0)"></option>
+												<option value="rgb(102, 61, 0)"></option>
+												<option value="rgb(102, 102, 0)"></option>
+												<option value="rgb(0, 55, 0)"></option>
+												<option value="rgb(0, 41, 102)"></option>
+												<option value="rgb(61, 20, 102)"></option>
+											</select>
+											<span class="ql-format-separator"></span>
+											<select title="Background Color" class="ql-background">
+												<option value="rgb(0, 0, 0)"></option>
+												<option value="rgb(230, 0, 0)"></option>
+												<option value="rgb(255, 153, 0)"></option>
+												<option value="rgb(255, 255, 0)"></option>
+												<option value="rgb(0, 138, 0)"></option>
+												<option value="rgb(0, 102, 204)"></option>
+												<option value="rgb(153, 51, 255)"></option>
+												<option value="rgb(255, 255, 255)" selected></option>
+												<option value="rgb(250, 204, 204)"></option>
+												<option value="rgb(255, 235, 204)"></option>
+												<option value="rgb(255, 255, 204)"></option>
+												<option value="rgb(204, 232, 204)"></option>
+												<option value="rgb(204, 224, 245)"></option>
+												<option value="rgb(235, 214, 255)"></option>
+												<option value="rgb(187, 187, 187)"></option>
+												<option value="rgb(240, 102, 102)"></option>
+												<option value="rgb(255, 194, 102)"></option>
+												<option value="rgb(255, 255, 102)"></option>
+												<option value="rgb(102, 185, 102)"></option>
+												<option value="rgb(102, 163, 224)"></option>
+												<option value="rgb(194, 133, 255)"></option>
+												<option value="rgb(136, 136, 136)"></option>
+												<option value="rgb(161, 0, 0)"></option>
+												<option value="rgb(178, 107, 0)"></option>
+												<option value="rgb(178, 178, 0)"></option>
+												<option value="rgb(0, 97, 0)"></option>
+												<option value="rgb(0, 71, 178)"></option>
+												<option value="rgb(107, 36, 178)"></option>
+												<option value="rgb(68, 68, 68)"></option>
+												<option value="rgb(92, 0, 0)"></option>
+												<option value="rgb(102, 61, 0)"></option>
+												<option value="rgb(102, 102, 0)"></option>
+												<option value="rgb(0, 55, 0)"></option>
+												<option value="rgb(0, 41, 102)"></option>
+												<option value="rgb(61, 20, 102)"></option>
+											</select>
+											<span class="ql-format-separator"></span>
+											<select title="Text Alignment" class="ql-align">
+												<option value="left" selected></option>
+												<option value="center"></option>
+												<option value="right"></option>
+												<option value="justify"></option>
+											</select>
+										</span>
+										<span class="ql-format-group"><span title="Enlace" class="ql-format-button ql-link"></span><span class="ql-format-separator"></span><span title="Imagen" class="ql-format-button ql-image"></span><span class="ql-format-separator"></span><span title="List" class="ql-format-button ql-list"></span></span>
+									</div><!-- .toolbar-container -->
+									<div class="editor-container"></div>
+								</div><!-- .advanced-wrapper -->
+							</div>
+							<div class="pure-u-1 caja cajapublicacion">
+								<h3>Extracto</h3>
+								<textarea name="curso_extracto" class="pure-input-1"></textarea>
+								<small>Los resúmenes son narraciones hechas a mano y opcionales.</small>
+							</div>
+						</div>
+					</div>
+					<!-- .pure-u-15-24 -->
+					<div class="pure-u-lg-9-24 pure-u-md-12-24 pure-u-sm-1 caja">
+						<div class="pure-g">
+							<div id="enviardiv" class="pure-u-1 pure-u-md-1 pure-u-sm-1-2 caja cajapublicacion">
+								<h3>Publicar</h3>
+								<input name="guardar" type="submit" value="Guardar borrador" class="pure-button" />
+								<a class="pure-button" href="?prevista=true">Vista previa</a>
+								<div class="acciones-menores">
+									<div class="misc-curso-status">
+										<label for="curso_status">Estado:</label>
+										<span>Borrador</span>
+										<a href="#curso_status">Editar</a>
+									</div>
+									<div class="misc-curso-fecha-inicio">
+										<label for="curso_status">Inicio:</label>
+										<span>Abril 11, 2016 @ 08:40</span>
+										<a href="#curso_fecha_inicio">Editar</a>
+									</div>
+								</div>
+								<!-- .acciones-menores -->
+								<div class="acciones-mayores">
+									<div class="accion-borrar">
+										<a href="?accion=papelera" class="text-danger">Mover a la papelera</a>
+									</div>
+									<div class="accion-publicar">
+										<span></span>
+										<input name="publicar" type="submit" value="Publicar" class="pure-button pure-button-primary" />
+									</div>
+								</div>
+							</div>
+							<!-- .cajapublicacion -->
+							<div id="categoriadiv" class="pure-u-1 pure-u-md-1 pure-u-sm-1-2 caja cajapublicacion">
+								<h3>Categorías</h3>
+							</div>
+							<!-- .cajapublicacion -->
+							<div id="etiquetadiv" class="pure-u-1 pure-u-md-1 pure-u-sm-1-2 caja cajapublicacion">
+								<h3>Etiquetas</h3>
+								<input id="new-tag-post_tag" name="newtag[post_tag]" class="newtag form-input-tip" size="16" autocomplete="off" aria-describedby="new-tag-post_tag-desc" type="text">
+								<input class="button agregar-etiqueta" value="Agregar" type="button">
+							</div>
+							<!-- .cajapublicacion -->
+							<div id="etiquetadiv" class="pure-u-1 pure-u-md-1 pure-u-sm-1-2 caja cajapublicacion">
+								<h3>Imagen principal</h3>
+								<a href="ifrema">Establecer imagen destacada</a>
+							</div>
+							<!-- .cajapublicacion -->
+						</div>
+						<!-- .pure-g -->
+					</div>
+					<!-- .pure-u-9-24 -->
+				</div>
+			</form>
+		</section>
+		<!-- JS -->
+		<script type="text/javascript" src="js/quill/quill.min.js"></script>
+		<script type="text/javascript" src="js/quill/advanced.js"></script>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.fi-2x {
+	font-size: 2em;
+}
+.fi-3x {
+	font-size: 3em;
+}
+.fi-4x {
+	font-size: 4em;
+}
+.fi-5x {
+	font-size: 5em;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}.flaticon-certificate:before {
+	content: "\e000";
+}
+.flaticon-clock148:before {
+	content: "\e001";
+}
+.flaticon-facebook6:before {
+	content: "\e002";
+}
+.flaticon-hourglass:before {
+	content: "\e003";
+}
+.flaticon-label74:before {
+	content: "\e004";
+}
+.flaticon-money146:before {
+	content: "\e005";
+}
+.flaticon-socialnetwork317:before {
+	content: "\e006";
+}
+.flaticon-spring16:before {
+	content: "\e007";
+}
+.flaticon-twitter25:before {
+	content: "\e008";
+}
+.flaticon-wallclock:before {
+	content: "\e009";
+}

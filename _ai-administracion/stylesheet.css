@@ -1,0 +1,26 @@
+.pure-g > div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.caja {
+	padding: 1em;
+}
+
+.cajapublicacion {
+	border: solid 1px #aaa;
+	background-color: white;
+	margin-top: 10px;
+}
+
+/*.cajapublicacion:not(:first-child) {
+    margin-top: 10px;
+}*/
+
+body {
+	background-color: #edf2f4;
+}
+
+.text-danger {
+	color: red;
+}

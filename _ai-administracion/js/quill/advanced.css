@@ -1,0 +1,17 @@
+.advanced-wrapper {
+  border: 1px solid #ccc;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.advanced-wrapper {
+  width: 100%;
+}
+.editor-container {
+  height: 400px;
+  background-color: white;
+}
+.toolbar-container {
+  border-bottom: 1px solid #ccc;
+}
