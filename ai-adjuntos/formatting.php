@@ -26,6 +26,10 @@ function ai_check_invalid_utf8( $string, $strip = false ) {
 	if ( !$utf8_pcre ) {
 		return $string;
 	}
+	
+	
+	//editado
+	
 
 	// preg_match fails when it encounters invalid UTF8 in $string
 	if ( 1 === @preg_match( '/^./us', $string ) ) {
